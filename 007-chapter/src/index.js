@@ -23,8 +23,10 @@ root.render(
       <li>{items[2]}</li>
     </ul>
     <p>
-      <span dangerouslySetInnerHTML={{ __html: "&copy;" }} /> Фабрики - рабочим, земля - крестьянам, пиво - мне!
+      <span dangerouslySetInnerHTML={{ __html: "&copy;" }} /> Фабрики - рабочим,
+      земля - крестьянам, пиво - мне!
     </p>
+    <p>{date} год</p>
   </div>
 );
 
