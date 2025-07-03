@@ -3,7 +3,16 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<h1>Hello world!</h1>);
+root.render(
+  <div>
+    <h1>Список покупок</h1>
+    <ul>
+      <li>Хлеб</li>
+      <li>Масло</li>
+      <li>Колбаса</li>
+    </ul>
+  </div>
+);
 
 
 // // Создать h1
