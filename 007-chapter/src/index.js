@@ -3,14 +3,28 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
+
+const value = "Мои увлечения";
+const firstName = "Марина";
+const lastName = "В.";
+const items = ["Музыка", "Кино", "Книги"]
+
+const date = new Date().getFullYear();
+
 root.render(
   <div>
-    <h1>Список покупок</h1>
+    <h1>{value}</h1>
+    <h2>
+      {firstName} {lastName}
+    </h2>
     <ul>
-      <li>Хлеб</li>
-      <li>Масло</li>
-      <li>Колбаса</li>
+      <li>{items[0]}</li>
+      <li>{items[1]}</li>
+      <li>{items[2]}</li>
     </ul>
+    <p>
+      <span dangerouslySetInnerHTML={{ __html: "&copy;" }} /> Фабрики - рабочим, земля - крестьянам, пиво - мне!
+    </p>
   </div>
 );
 
