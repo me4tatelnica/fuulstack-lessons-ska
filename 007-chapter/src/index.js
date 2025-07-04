@@ -7,8 +7,11 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 const value = "Мои увлечения";
 const firstName = "Марина";
 const lastName = "В.";
-const items = ["Музыка", "Кино", "Книги"]
+// const items = ["Музыка", "Кино", "Книги", "Диван"]
 
+const getRandom = () => {
+  return Math.floor(Math.random() * 10);
+}
 const date = new Date().getFullYear();
 
 root.render(
@@ -18,9 +21,15 @@ root.render(
       {firstName} {lastName}
     </h2>
     <ul>
-      <li>{items[0]}</li>
-      <li>{items[1]}</li>
-      <li>{items[2]}</li>
+      {
+        // Если есть массив, то:
+      // items.map(item => (<li>{item}</li>))
+
+      // Если нет массива:
+        Array.from({length: 5}, (_, index) =>
+        <li>{`Элемент ${getRandom() % 2 === 0 ? 'EVEN' : 'ODD'}`}</li>
+        )
+      }
     </ul>
     <p>
       <span dangerouslySetInnerHTML={{ __html: "&copy;" }} /> Фабрики - рабочим,
