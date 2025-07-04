@@ -16,19 +16,21 @@ const date = new Date().getFullYear();
 
 root.render(
   <div>
-    <h1>{value}</h1>
-    <h2>
+    <h1 className="h1-style">{value}</h1>
+    <h2 className="h2-style">
       {firstName} {lastName}
     </h2>
     <ul>
       {
         // Если есть массив, то:
-      // items.map(item => (<li>{item}</li>))
+        // items.map(item => (<li>{item}</li>))
 
-      // Если нет массива:
-        Array.from({length: 5}, (_, index) =>
-        <li>{`Элемент ${getRandom() % 2 === 0 ? 'EVEN' : 'ODD'}`}</li>
-        )
+        // Если нет массива:
+        Array.from({ length: 5 }, (_, index) => (
+          <li key={index}>{`Элемент ${
+            getRandom() % 2 === 0 ? "EVEN" : "ODD"
+          }`}</li>
+        ))
       }
     </ul>
     <p>
