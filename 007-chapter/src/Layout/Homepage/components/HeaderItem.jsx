@@ -1,9 +1,9 @@
 import React from 'react';
-const value = "Карточки с мишками";
-const HeaderItem = () => {
+
+const HeaderItem = (props) => {
   return (
     <div>
-      <h1 className="h1-style">{value}</h1>
+      <h1 className="h1-style">{props.headerText}</h1>
     </div>
   )
 }
