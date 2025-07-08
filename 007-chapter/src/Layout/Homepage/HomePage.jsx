@@ -1,9 +1,10 @@
-import React from 'react';
-
+import React, {useState, useEffect} from 'react';
+import axios from "axios";
 import ContentItem from './components/ContentItem';
 import FooterItem from './components/FooterItem';
 import HeaderItem from './components/Headeritem';
 
+const baseUrl = "https://jsonplaceholder.typicode.com/posts";
 const HomePage = () => {
   const value = "Карточки с мишками";
   const labels = [
@@ -15,6 +16,12 @@ const HomePage = () => {
     {id: 1, cardTitle: "Медведь 6", cardText: "Описание бурого, а может и не бурого"},
   ]
 
+  useEffect(() => {
+    axios.get(baseUrl)
+      .then(res => {
+        console.log(res);
+      })
+  })
 
   return (
     <div  className="container col-3">
