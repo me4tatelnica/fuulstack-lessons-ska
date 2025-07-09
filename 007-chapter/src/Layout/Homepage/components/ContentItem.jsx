@@ -11,10 +11,8 @@ const ContentItem =(props) => {
           alt="..."
         />
         <div className="card-body">
-          <h5 className="card-title">{item.cardTitle}</h5>
-          <p className="card-text">
-            {item.cardText}
-          </p>
+          <h5 className="card-title">{item.title}</h5>
+          <p className="card-text">{item.body}</p>
         </div>
       </div>
     ))}
