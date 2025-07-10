@@ -9,8 +9,10 @@
 Для быстрого запуска кода:
   в файле setting.json
 
-  `"code-runner.executorMap": {
+```
+"code-runner.executorMap": {
 
-    "csharp": "clear && echo \">>> \"$fileName && cd $dir && dotnet run $fileName",
+  "csharp": "clear && echo \">>> \"$fileName && cd $dir && dotnet run $fileName",
 
-  },`
+  },
+  ```
