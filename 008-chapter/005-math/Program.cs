@@ -28,4 +28,3 @@ Console.WriteLine("Квадратный корень из 16: " + Math.Sqrt(16))
 // Вывод констант
 Console.WriteLine("Число e: " + Math.E);
 Console.WriteLine("Число Pi: " + Math.PI);
-

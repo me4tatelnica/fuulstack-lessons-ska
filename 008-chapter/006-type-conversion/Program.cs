@@ -27,4 +27,3 @@ int parseResult;
 // Пытается преобразовать строку в int
 bool isSuccess = int.TryParse(invalidIntString, out parseResult);
 Console.WriteLine("Попытка преобразования строки в int с использованием TryParse: " + isSuccess + ", результат: " + parseResult);
-

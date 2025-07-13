@@ -11,11 +11,8 @@ int multiplyResult = 5 * 3;
 Console.WriteLine("Результат умножения: " + multiplyResult); // Выведет: Результат умножения: 15
 
 // Пример деления
-int divideResult = 21 / 2;
-Console.WriteLine("Результат деления: " + divideResult); // Выведет: Результат деления: 10
-
-double divResult = 21.0 / 2;
-Console.WriteLine("Результат деления: " + divResult); // Выведет: Результат деления: 10.5
+double divideResult = 21 / 2;
+Console.WriteLine("Результат деления: " + divideResult); // Выведет: Результат деления: 2
 
 // Пример остатка от деления
 int remainderResult = 21 % 2;

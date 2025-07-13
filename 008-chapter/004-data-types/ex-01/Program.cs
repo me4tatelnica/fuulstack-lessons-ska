@@ -28,12 +28,11 @@ Week today = Week.Monday;
 Console.WriteLine("День недели: " + today);
 enum Week
 {
-  Monday,
-  Tuesday,
-  Wednesday,
-  Thursday,
-  Friday,
-  Saturday,
-  Sunday
+    Monday,
+    Tuesday,
+    Wednesday,
+    Thursday,
+    Friday,
+    Saturday,
+    Sunday
 }
-

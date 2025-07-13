@@ -21,3 +21,4 @@ bool parseResult = int.TryParse(inputAge, out age);
 // Вывод возраста, если ввод корректен
 Console.WriteLine($"Получилось ли преобразовать: {parseResult}");
 Console.WriteLine($"Ваш возраст: {age} лет.");
+
