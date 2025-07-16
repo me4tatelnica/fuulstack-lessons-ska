@@ -19,11 +19,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InputData", "007-input-data
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoTipCalculator", "008-demo-tip-calculator\DemoTipCalculator.csproj", "{2DD75279-40FA-4CEC-9122-F374E2F7FA45}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conditional", "009-conditional\Conditional.csproj", "{E11A2714-2BA8-4317-969F-59802FD227D6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogicComparisonOperations", "009-logic-comparison-operations\LogicComparisonOperations.csproj", "{4FCD1388-97F1-42A8-981D-3A6CA8E89438}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoTipCalculatorChecks", "010-demo-tip-calculator-checks\DemoTipCalculatorChecks.csproj", "{D9DE2EDD-FADD-49AE-8BE1-EE63D20C0DDD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conditional", "010-conditional\Conditional.csproj", "{E11A2714-2BA8-4317-969F-59802FD227D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogicComparisonOperations", "011-logic-comparison-operations\LogicComparisonOperations.csproj", "{4FCD1388-97F1-42A8-981D-3A6CA8E89438}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoTipCalculatorChecks", "011-demo-tip-calculator-checks\DemoTipCalculatorChecks.csproj", "{D9DE2EDD-FADD-49AE-8BE1-EE63D20C0DDD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoTextQuestionnaire", "012-demo-text-questionnaire\DemoTextQuestionnaire.csproj", "{7FAF4704-EA95-4521-B0A1-C8737C202103}"
 EndProject
