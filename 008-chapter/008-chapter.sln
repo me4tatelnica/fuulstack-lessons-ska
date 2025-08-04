@@ -51,7 +51,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithDates", "023-wor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Files", "024-files\Files.csproj", "{6953D503-DEA8-45D5-BC80-7D3F076CFDAC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleFilesProject", "025-multiple-files-project\MultipleFilesProject.csproj", "{2D411AEF-5E49-4B97-A128-7F4DD4DD154C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleFilesProject", "025-multiple-files-project\ex01\ex01.csproj", "{2D411AEF-5E49-4B97-A128-7F4DD4DD154C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionHandling", "026-exception-handling\ExceptionHandling.csproj", "{D8D7DACB-5B2D-4745-9246-826D906A6E1C}"
 EndProject
