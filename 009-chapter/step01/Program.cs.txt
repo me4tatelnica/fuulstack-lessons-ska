@@ -1,0 +1,51 @@
+﻿// todo
+// Требуется создать БД, в которой будут храниться пользователи
+// Для пользователя будет определено имя и возраст
+// Нужно иметь возможность работать с БД (добавлять читать, распечатывать информацию)
+
+// 1. Определим количество человек в БД
+// 2. Переменная, хранящая индекс пользователя, который добавляется
+// 3. Место, где будут храниться имена и возрасты пользователей
+const int count = 10;
+int index = 0;
+string[] name = new string[count];
+int[] age = new int[count];
+
+// 4. Метод, который будет хранить имя и возраст, проверять, что текущее значение индекса не больше count, чтобы свыше определенного количества человек не добавилось.
+void CreatePerson(string personName, int personAge)
+{
+  if (index >= count) return;
+  name[index] = personName;
+  age[index] = personAge;
+  index++;
+}
+
+// 5. Получение пользователя по указанному идентификатору
+(string personAge, int personName) GetPersonById(int id)
+{
+  if (id < 0 || id >= index) return ("empty", -1);
+  string personName = name[id];
+  int personAge = age[id];
+  return (personName, personAge);
+}
+
+// 6. Печать
+void PrintPersonById(int id)
+{
+  if (id < 0 || id >= index) return;
+
+  Console.WriteLine($"Имя: {name[id]} возраст: {age[id]}");
+}
+
+void PrintPerson((string, int) person)
+{
+  Console.WriteLine($"Имя: {person.Item1} возраст: {person.Item2}");
+}
+
+// 7. Наполнение БД
+for (int i = 0; i < count; i++)
+{
+  CreatePerson($"Имя {i}", Random.Shared.Next(10, 80));
+  PrintPersonById(i);
+}
+
