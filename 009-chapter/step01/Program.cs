@@ -7,8 +7,9 @@ repository.Append(person1);
 repository.Append(person2);
 repository.Append(person3);
 
-repository.Print();
+Printer printer = new Printer();
+printer.Print(repository);
 
-var res = repository.GetPersonById(2);
-Console.WriteLine(res.Name);
+// var res = repository.GetPersonById(2);
+// Console.WriteLine(res.Name);
 
