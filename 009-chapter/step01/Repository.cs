@@ -1,12 +1,12 @@
 class Repository
 {
-  private Person[] people;
+  private Person[] storage;
   private int count;
   private int index = 0;
   public Repository(int count)
   {
     this.count = count;
-    people = new Person[count];
+    storage = new Person[count];
   }
 
 // Выдаем индекс в общий доступ
@@ -15,11 +15,14 @@ class Repository
   public int Index => index;
 
   // Метод, который позволяет добавлять персонажа
-  public void Append(Person person)
+  public void Append(params Person[] people)
   {
-    if (index >= count) return;
-    people[index] = person;
-    index++;
+    foreach (var person in people)
+    {
+      if (index >= count) return;
+      storage[index] = person;
+      index++;
+    }
   }
 
   // Метод получения данных
@@ -29,7 +32,7 @@ class Repository
     {
       return new Person("empty", -1);
     }
-    return people[id];
+    return storage[id];
   }
 
 }

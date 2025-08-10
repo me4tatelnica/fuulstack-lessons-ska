@@ -7,7 +7,7 @@ class Printer
     for (int i = 0; i < max; i++)
     {
       Person temp = repository.GetPersonById(i);
-      Console.WriteLine($"Имя: {temp.Name} возраст: {temp.Age}");
+      Console.WriteLine(temp.ToString());
     }
   }
 }
