@@ -5,9 +5,9 @@ class Person
     this.Name = name;
     this.Age = age;
   }
-  public string Name { get; private set; }
-  public int Age { get; private set; }
-  public override string ToString()
+  public string Name { get; protected set; }
+  public int Age { get; protected set; }
+  public virtual string ToString()
   {
     return $"Имя: {this.Name} возраст: {this.Age}";
   }

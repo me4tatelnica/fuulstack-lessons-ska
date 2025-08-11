@@ -14,3 +14,11 @@ printer.Print(repository);
 // var res = repository.GetPersonById(2);
 // Console.WriteLine(res.Name);
 
+Student s = new Student("Студент 1", 7, "Школа № 47");
+Console.WriteLine(s.ToString());
+
+Employee sl = new Employee("Уборщик Петров", 42, 80000);
+Console.WriteLine(sl.ToString());
+
+Teacher sb = new Teacher ("Федор Васечкин", 51, "Литература");
+Console.WriteLine(sb.ToString());
