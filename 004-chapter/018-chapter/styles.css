@@ -1,0 +1,48 @@
+/* Так как сетка предполагается в body, займемся им, хотя были мысли обернуть все в контейнер */
+body {
+  /* убираем отступы */
+  margin: 0;
+  padding: 0;
+  /* размечаем большую сетку */
+  display: grid;
+  grid-template-rows: 150px auto 100px;
+  grid-template-columns: 100px 1fr;
+  /* Прописываем вьюпорт */
+  min-height: 100vh;
+  background-color: #c0b7b7;
+}
+
+/* Так как стили у заголовка и подвала одинаковые, избавляем себя от лишней работы, а файл от лишнего кода */
+.header, .footer {
+  /* В body размечены два столбца, наши элементы занимают оба */
+  grid-column: span 2;
+  background-color: #4639d2;
+  color: white;
+  padding: 10px;
+  /* Центруем контент внутри */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+/* Этот элемент нормально идет в потоке, оставляем, как есть */
+  .aside {
+    background-color: #747272;
+    color: white;
+    padding: 10px;
+}
+
+/* здесь вложены три секции и им нужно задать сетку */
+.main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.section {
+    background-color: #ccc;
+    padding: 20px;
+}
+
+/* @media - здесь должна была быть адаптивность. Но... не судьба */
