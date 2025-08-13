@@ -1,0 +1,15 @@
+C:\Users\Admin\Desktop\Lessons\008-chapter\011-demo-tip-calculator-checks\bin\Debug\net8.0\DemoTipCalculatorChecks.exe
+C:\Users\Admin\Desktop\Lessons\008-chapter\011-demo-tip-calculator-checks\bin\Debug\net8.0\DemoTipCalculatorChecks.deps.json
+C:\Users\Admin\Desktop\Lessons\008-chapter\011-demo-tip-calculator-checks\bin\Debug\net8.0\DemoTipCalculatorChecks.runtimeconfig.json
+C:\Users\Admin\Desktop\Lessons\008-chapter\011-demo-tip-calculator-checks\bin\Debug\net8.0\DemoTipCalculatorChecks.dll
+C:\Users\Admin\Desktop\Lessons\008-chapter\011-demo-tip-calculator-checks\bin\Debug\net8.0\DemoTipCalculatorChecks.pdb
+C:\Users\Admin\Desktop\Lessons\008-chapter\011-demo-tip-calculator-checks\obj\Debug\net8.0\DemoTipCalculatorChecks.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\Lessons\008-chapter\011-demo-tip-calculator-checks\obj\Debug\net8.0\DemoTipCalculatorChecks.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Lessons\008-chapter\011-demo-tip-calculator-checks\obj\Debug\net8.0\DemoTipCalculatorChecks.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Lessons\008-chapter\011-demo-tip-calculator-checks\obj\Debug\net8.0\DemoTipCalculatorChecks.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Lessons\008-chapter\011-demo-tip-calculator-checks\obj\Debug\net8.0\DemoTipCalculatorChecks.sourcelink.json
+C:\Users\Admin\Desktop\Lessons\008-chapter\011-demo-tip-calculator-checks\obj\Debug\net8.0\DemoTipCalculatorChecks.dll
+C:\Users\Admin\Desktop\Lessons\008-chapter\011-demo-tip-calculator-checks\obj\Debug\net8.0\refint\DemoTipCalculatorChecks.dll
+C:\Users\Admin\Desktop\Lessons\008-chapter\011-demo-tip-calculator-checks\obj\Debug\net8.0\DemoTipCalculatorChecks.pdb
+C:\Users\Admin\Desktop\Lessons\008-chapter\011-demo-tip-calculator-checks\obj\Debug\net8.0\DemoTipCalculatorChecks.genruntimeconfig.cache
+C:\Users\Admin\Desktop\Lessons\008-chapter\011-demo-tip-calculator-checks\obj\Debug\net8.0\ref\DemoTipCalculatorChecks.dll

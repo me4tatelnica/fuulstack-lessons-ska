@@ -1,0 +1,15 @@
+C:\Users\Admin\Desktop\Lessons\008-chapter\008-demo-tip-calculator\bin\Debug\net8.0\DemoTipCalculator.exe
+C:\Users\Admin\Desktop\Lessons\008-chapter\008-demo-tip-calculator\bin\Debug\net8.0\DemoTipCalculator.deps.json
+C:\Users\Admin\Desktop\Lessons\008-chapter\008-demo-tip-calculator\bin\Debug\net8.0\DemoTipCalculator.runtimeconfig.json
+C:\Users\Admin\Desktop\Lessons\008-chapter\008-demo-tip-calculator\bin\Debug\net8.0\DemoTipCalculator.dll
+C:\Users\Admin\Desktop\Lessons\008-chapter\008-demo-tip-calculator\bin\Debug\net8.0\DemoTipCalculator.pdb
+C:\Users\Admin\Desktop\Lessons\008-chapter\008-demo-tip-calculator\obj\Debug\net8.0\DemoTipCalculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\Lessons\008-chapter\008-demo-tip-calculator\obj\Debug\net8.0\DemoTipCalculator.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Lessons\008-chapter\008-demo-tip-calculator\obj\Debug\net8.0\DemoTipCalculator.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Lessons\008-chapter\008-demo-tip-calculator\obj\Debug\net8.0\DemoTipCalculator.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Lessons\008-chapter\008-demo-tip-calculator\obj\Debug\net8.0\DemoTipCalculator.sourcelink.json
+C:\Users\Admin\Desktop\Lessons\008-chapter\008-demo-tip-calculator\obj\Debug\net8.0\DemoTipCalculator.dll
+C:\Users\Admin\Desktop\Lessons\008-chapter\008-demo-tip-calculator\obj\Debug\net8.0\refint\DemoTipCalculator.dll
+C:\Users\Admin\Desktop\Lessons\008-chapter\008-demo-tip-calculator\obj\Debug\net8.0\DemoTipCalculator.pdb
+C:\Users\Admin\Desktop\Lessons\008-chapter\008-demo-tip-calculator\obj\Debug\net8.0\DemoTipCalculator.genruntimeconfig.cache
+C:\Users\Admin\Desktop\Lessons\008-chapter\008-demo-tip-calculator\obj\Debug\net8.0\ref\DemoTipCalculator.dll

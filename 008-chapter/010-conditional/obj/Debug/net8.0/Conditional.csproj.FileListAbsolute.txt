@@ -1,0 +1,15 @@
+C:\Users\Admin\Desktop\Lessons\008-chapter\010-conditional\bin\Debug\net8.0\Conditional.exe
+C:\Users\Admin\Desktop\Lessons\008-chapter\010-conditional\bin\Debug\net8.0\Conditional.deps.json
+C:\Users\Admin\Desktop\Lessons\008-chapter\010-conditional\bin\Debug\net8.0\Conditional.runtimeconfig.json
+C:\Users\Admin\Desktop\Lessons\008-chapter\010-conditional\bin\Debug\net8.0\Conditional.dll
+C:\Users\Admin\Desktop\Lessons\008-chapter\010-conditional\bin\Debug\net8.0\Conditional.pdb
+C:\Users\Admin\Desktop\Lessons\008-chapter\010-conditional\obj\Debug\net8.0\Conditional.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\Lessons\008-chapter\010-conditional\obj\Debug\net8.0\Conditional.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Lessons\008-chapter\010-conditional\obj\Debug\net8.0\Conditional.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Lessons\008-chapter\010-conditional\obj\Debug\net8.0\Conditional.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Lessons\008-chapter\010-conditional\obj\Debug\net8.0\Conditional.sourcelink.json
+C:\Users\Admin\Desktop\Lessons\008-chapter\010-conditional\obj\Debug\net8.0\Conditional.dll
+C:\Users\Admin\Desktop\Lessons\008-chapter\010-conditional\obj\Debug\net8.0\refint\Conditional.dll
+C:\Users\Admin\Desktop\Lessons\008-chapter\010-conditional\obj\Debug\net8.0\Conditional.pdb
+C:\Users\Admin\Desktop\Lessons\008-chapter\010-conditional\obj\Debug\net8.0\Conditional.genruntimeconfig.cache
+C:\Users\Admin\Desktop\Lessons\008-chapter\010-conditional\obj\Debug\net8.0\ref\Conditional.dll

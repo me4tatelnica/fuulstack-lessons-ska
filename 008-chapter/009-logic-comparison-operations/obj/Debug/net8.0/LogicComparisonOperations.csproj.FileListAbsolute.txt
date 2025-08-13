@@ -1,0 +1,15 @@
+C:\Users\Admin\Desktop\Lessons\008-chapter\009-logic-comparison-operations\bin\Debug\net8.0\LogicComparisonOperations.exe
+C:\Users\Admin\Desktop\Lessons\008-chapter\009-logic-comparison-operations\bin\Debug\net8.0\LogicComparisonOperations.deps.json
+C:\Users\Admin\Desktop\Lessons\008-chapter\009-logic-comparison-operations\bin\Debug\net8.0\LogicComparisonOperations.runtimeconfig.json
+C:\Users\Admin\Desktop\Lessons\008-chapter\009-logic-comparison-operations\bin\Debug\net8.0\LogicComparisonOperations.dll
+C:\Users\Admin\Desktop\Lessons\008-chapter\009-logic-comparison-operations\bin\Debug\net8.0\LogicComparisonOperations.pdb
+C:\Users\Admin\Desktop\Lessons\008-chapter\009-logic-comparison-operations\obj\Debug\net8.0\LogicComparisonOperations.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\Lessons\008-chapter\009-logic-comparison-operations\obj\Debug\net8.0\LogicComparisonOperations.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Lessons\008-chapter\009-logic-comparison-operations\obj\Debug\net8.0\LogicComparisonOperations.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Lessons\008-chapter\009-logic-comparison-operations\obj\Debug\net8.0\LogicComparisonOperations.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Lessons\008-chapter\009-logic-comparison-operations\obj\Debug\net8.0\LogicComparisonOperations.sourcelink.json
+C:\Users\Admin\Desktop\Lessons\008-chapter\009-logic-comparison-operations\obj\Debug\net8.0\LogicComparisonOperations.dll
+C:\Users\Admin\Desktop\Lessons\008-chapter\009-logic-comparison-operations\obj\Debug\net8.0\refint\LogicComparisonOperations.dll
+C:\Users\Admin\Desktop\Lessons\008-chapter\009-logic-comparison-operations\obj\Debug\net8.0\LogicComparisonOperations.pdb
+C:\Users\Admin\Desktop\Lessons\008-chapter\009-logic-comparison-operations\obj\Debug\net8.0\LogicComparisonOperations.genruntimeconfig.cache
+C:\Users\Admin\Desktop\Lessons\008-chapter\009-logic-comparison-operations\obj\Debug\net8.0\ref\LogicComparisonOperations.dll

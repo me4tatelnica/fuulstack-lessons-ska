@@ -1,0 +1,15 @@
+C:\Users\Admin\Desktop\Lessons\008-chapter\012-demo-text-questionnaire\bin\Debug\net8.0\DemoTextQuestionnaire.exe
+C:\Users\Admin\Desktop\Lessons\008-chapter\012-demo-text-questionnaire\bin\Debug\net8.0\DemoTextQuestionnaire.deps.json
+C:\Users\Admin\Desktop\Lessons\008-chapter\012-demo-text-questionnaire\bin\Debug\net8.0\DemoTextQuestionnaire.runtimeconfig.json
+C:\Users\Admin\Desktop\Lessons\008-chapter\012-demo-text-questionnaire\bin\Debug\net8.0\DemoTextQuestionnaire.dll
+C:\Users\Admin\Desktop\Lessons\008-chapter\012-demo-text-questionnaire\bin\Debug\net8.0\DemoTextQuestionnaire.pdb
+C:\Users\Admin\Desktop\Lessons\008-chapter\012-demo-text-questionnaire\obj\Debug\net8.0\DemoTextQuestionnaire.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\Lessons\008-chapter\012-demo-text-questionnaire\obj\Debug\net8.0\DemoTextQuestionnaire.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Lessons\008-chapter\012-demo-text-questionnaire\obj\Debug\net8.0\DemoTextQuestionnaire.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Lessons\008-chapter\012-demo-text-questionnaire\obj\Debug\net8.0\DemoTextQuestionnaire.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Lessons\008-chapter\012-demo-text-questionnaire\obj\Debug\net8.0\DemoTextQuestionnaire.sourcelink.json
+C:\Users\Admin\Desktop\Lessons\008-chapter\012-demo-text-questionnaire\obj\Debug\net8.0\DemoTextQuestionnaire.dll
+C:\Users\Admin\Desktop\Lessons\008-chapter\012-demo-text-questionnaire\obj\Debug\net8.0\refint\DemoTextQuestionnaire.dll
+C:\Users\Admin\Desktop\Lessons\008-chapter\012-demo-text-questionnaire\obj\Debug\net8.0\DemoTextQuestionnaire.pdb
+C:\Users\Admin\Desktop\Lessons\008-chapter\012-demo-text-questionnaire\obj\Debug\net8.0\DemoTextQuestionnaire.genruntimeconfig.cache
+C:\Users\Admin\Desktop\Lessons\008-chapter\012-demo-text-questionnaire\obj\Debug\net8.0\ref\DemoTextQuestionnaire.dll
