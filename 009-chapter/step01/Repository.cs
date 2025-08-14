@@ -1,4 +1,4 @@
-class Repository
+class Repository : IRepository
 {
   private Person[] storage;
   private int count;
@@ -26,7 +26,7 @@ class Repository
   }
 
   // Метод получения данных
-  public Person GetPersonById(int id)
+  public Person GetById(int id)
   {
     if (id < 0 || id >= index)
     {
