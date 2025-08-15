@@ -1,6 +1,10 @@
-interface IRepository
+interface IRepo<T>
 {
   int Index { get; }
-  void Append(params Person[] people);
-  public Person GetById(int id);
+  void Append(params T[] people);
+  T GetById(int id);
+}
+interface IRepository : IRepo<Person>
+{
+
 }
