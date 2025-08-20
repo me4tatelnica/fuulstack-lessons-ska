@@ -1,23 +1,20 @@
+using Microsoft.OpenApi.Models;
 var builder = WebApplication.CreateBuilder(args);
 
-// добавляет сервис, который генерирует описание API на основе ваших контроллеров и эндпоинтов
 builder.Services.AddEndpointsApiExplorer();
-// добавляет генератор Swagger, который создает спецификацию OpenAPI.
 builder.Services.AddSwaggerGen();
 
-// Add services to the container.
-// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
-// builder.Services.AddOpenApi();
-
 var app = builder.Build();
+app.UseSwagger();
+app.UseSwaggerUI();
+
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-  app.UseSwagger();
-  app.UseSwaggerUI();
-  // app.MapOpenApi();
-}
+// if (app.Environment.IsDevelopment())
+// {
+//   app.UseSwagger();
+//   app.UseSwaggerUI();
+// }
 
 app.UseHttpsRedirection();
 
@@ -42,7 +39,7 @@ app.MapGet("/weatherforecast", () =>
 
 app.Run();
 
-record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
+record WeatherForecast(DateOnly Date, int TemperatureC, string Summary)
 {
     public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
 }
