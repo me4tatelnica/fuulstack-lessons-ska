@@ -9,8 +9,8 @@ var app = builder.Build();
 app.UseSwagger();
 app.UseSwaggerUI();
 
-// app.MapGet("/test", () => "Hello, World!");
-// app.MapGet("/hello/{name}", (string name) => $"Привет, {name}!");
+
+
 app.MapControllers();
 app.Run();
 
