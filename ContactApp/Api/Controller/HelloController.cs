@@ -1,16 +1,10 @@
 using Microsoft.AspNetCore.Mvc;
 
-[ApiController]
-[Route("api/[controller]")]
-public class HelloController : ControllerBase
+public class HelloController : BaseController
 {
-  // app.MapGet("/test", () => "Hello, World!");
-  // "http://localhost:5000"/api/Test/test
-  [HttpGet("test")]
-  public string GetHelloWorldText()
+  [HttpGet("hello/{name}")]
+  public string GetGreetingByName(string name)
   {
-    return "Hello world!";
+    return $"Привет, {name}!";
   }
-
-
 }
