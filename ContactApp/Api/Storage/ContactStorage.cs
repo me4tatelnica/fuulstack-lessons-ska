@@ -70,4 +70,10 @@ public class ContactStorage
     }
     return false;
   }
+
+  public Contact SearchContact(int id)
+  {
+    return Contacts.FirstOrDefault(c => c.Id == id);
+  }
+
 }
