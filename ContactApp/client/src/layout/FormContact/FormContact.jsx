@@ -42,7 +42,10 @@ const FormContact = (props) => {
         </div>
         <button
           className="btn btn-primary"
-          onClick={() => { submit() }}
+          onClick={() => {
+            if (contactName && contactEmail)
+            submit()
+          }}
         >
           Добавить контакт
         </button>
