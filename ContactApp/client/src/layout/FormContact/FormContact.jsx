@@ -21,7 +21,7 @@ const FormContact = (props) => {
               <input
                 className="form-control;"
                 type="text"
-                //value={contactName}
+                value={contactName}
                 onChange={(e) => { setContactName(e.target.value) }}
                 placeholder="Введите имя:"
 
@@ -32,7 +32,7 @@ const FormContact = (props) => {
               <input
                 className="form-control;"
                 type="text"
-                //value={contactEmail}
+                value={contactEmail}
                 onChange={(e) => { setContactEmail(e.target.value) }}
                 placeholder="Введите e-mail:"
 
