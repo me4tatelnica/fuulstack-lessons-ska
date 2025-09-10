@@ -1,24 +1,21 @@
 using Microsoft.AspNetCore.Mvc;
 
-public class ContactMenegmentController : BaseController
+public class ContactManagementController : BaseController
 {
   private readonly ContactStorage storage;
-  private object contactStorage;
 
-  public ContactMenegmentController(ContactStorage storage)
+  public ContactManagementController(ContactStorage storage)
   {
     this.storage = storage;
   }
 
-  public ContactStorage ContactStorage { get; }
-
   [HttpPost("contacts")]
-  public IActionResult Create(Contact contact)
+  public IActionResult Create([FromBody] Contact contact)
   {
     bool res = storage.Add(contact);
     if (res)
     {
-      return Created($"/contacts/{contact.Id}", contact);
+      return Ok(contact);
     }
     return Conflict("Контакт с указанным ID существует");
   }
@@ -34,8 +31,7 @@ public class ContactMenegmentController : BaseController
   {
     bool res = storage.Remove(id);
     if (res) return NoContent();
-    return BadRequest("Ошибка ID");
-
+    return BadRequest("Ошибка id");
   }
 
   [HttpPut("contacts/{id}")]
@@ -43,19 +39,7 @@ public class ContactMenegmentController : BaseController
   {
     bool res = storage.UpdateContact(contactDto, id);
     if (res) return Ok();
-    return Conflict("Контакт с указанным ID не нашелся");
+    return Conflict("Контакт с указанным ID не нашёлся");
   }
 
-  [HttpGet("contacts/{id}")]
-  public IActionResult SearchContact(int id)
-  {
-    if (id < 0)
-    {
-      return BadRequest("Неверный формат ID");
-    }
-
-    Contact res = storage.SearchContact(id);
-    if (res != null) return Ok(res);
-    return NotFound("Контакт не найден");
-  }
 }
