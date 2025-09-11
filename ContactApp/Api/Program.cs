@@ -17,7 +17,7 @@ opt.AddPolicy("CorsPolicy", policy =>
 {
   policy.AllowAnyMethod()
   .AllowAnyHeader()
-  .WithOrigins("http://localhost:3000");
+  .WithOrigins(args[0]);
 }));
 
 var app = builder.Build();
