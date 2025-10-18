@@ -9,7 +9,7 @@ public class SqliteStorage : IStorage
     this.connectionString = connectionString;
   }
 
-  public bool Add(Contact contact)
+  public Contact Add(Contact contact)
   {
     using var connection = new SqliteConnection(connectionString);
     connection.Open();
@@ -18,12 +18,14 @@ public class SqliteStorage : IStorage
     // string sql = new StringBuilder()
     // .Append("INSERT INTO contacts(name, email) VALUES")
     // .Append($"({contact.Name}, {contact.Email});").ToString();
-    string sql = "INSERT INTO contacts(name, email) VALUES (@name, @email);";
+    string sql = @"INSERT INTO contacts(name, email) VALUES (@name, @email);
+    SELECT last_insert_rowid();
+    ";
     command.CommandText = sql;
     command.Parameters.AddWithValue("@name", contact.Name);
     command.Parameters.AddWithValue("@email", contact.Email);
-
-    return command.ExecuteNonQuery() > 0;
+    contact.Id = Convert.ToInt32(command.ExecuteScalar());
+    return contact;
   }
 
   public List<Contact> GetContacts()
