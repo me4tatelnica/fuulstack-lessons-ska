@@ -21,6 +21,7 @@ public static IServiceCollection AddServiceCollection(this IServiceCollection se
     services.AddDbContext<SqliteDbContext>(opt => opt.UseSqlite(stringConnection));
 
     services.AddScoped<IStorage, SqliteEfStorage>();
+    services.AddScoped<IInitializer, SqliteEfFakerInitializer>();
 
 
     services.AddCors(opt =>
