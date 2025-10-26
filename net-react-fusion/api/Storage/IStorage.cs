@@ -5,3 +5,4 @@ public interface IStorage
   bool Remove(int id);
   bool UpdateContact(ContactDto contactDto, int id);
 }
+

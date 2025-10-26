@@ -20,7 +20,7 @@ public static IServiceCollection AddServiceCollection(this IServiceCollection se
     var stringConnection = configuration.GetConnectionString("SqliteStringConnection");
     services.AddDbContext<SqliteDbContext>(opt => opt.UseSqlite(stringConnection));
 
-    services.AddScoped<IStorage, SqliteEfStorage>();
+    services.AddScoped<IPaginationStorage, SqlitePaginationEfStorage>();
     services.AddScoped<IInitializer, SqliteEfFakerInitializer>();
 
 
