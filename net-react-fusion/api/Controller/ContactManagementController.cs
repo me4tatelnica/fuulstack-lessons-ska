@@ -34,12 +34,23 @@ public class ContactManagementController : BaseController
         return BadRequest("Ошибка id");
     }
 
-    [HttpPut("contacts/{id}")]
-    public IActionResult UpdateContact([FromBody] ContactDto contactDto, int id)
+  [HttpPut("contacts/{id}")]
+  public IActionResult UpdateContact([FromBody] ContactDto contactDto, int id)
+  {
+    bool res = storage.UpdateContact(contactDto, id);
+    if (res) return Ok();
+    return Conflict("Контакт с указанным ID не нашёлся");
+  }
+
+  [HttpGet("contacts/{id}")]
+  public IActionResult GetContact(int id)
+  {
+    var contact = storage.GetContactById(id);
+    if (contact != null)
     {
-        bool res = storage.UpdateContact(contactDto, id);
-        if (res) return Ok();
-        return Conflict("Контакт с указанным ID не нашёлся");
+      return Ok(contact);
     }
+    return NotFound();
+  }
 
 }
