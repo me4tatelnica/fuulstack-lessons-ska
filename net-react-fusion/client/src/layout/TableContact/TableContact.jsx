@@ -9,6 +9,7 @@ const TableContact = (props) => {
                     <th>#</th>
                     <th>Имя контакта</th>
                     <th>E-mail</th>
+                    <th></th>
                 </tr>
             </thead>
             <tbody>
@@ -16,11 +17,10 @@ const TableContact = (props) => {
                     props.contacts.map(
                         contact =>
                         (<RowTableContact
-                            key={contact.id}
-                            id={contact.id}
-                            name={contact.name}
-                            email={contact.email}
-                            deleteContact={props.deleteContact}
+                          key={contact.id}
+                          id={contact.id}
+                          name={contact.name}
+                          email={contact.email}
                         />)
                     )
                 }
