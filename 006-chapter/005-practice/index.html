@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <title>Калькулятор чаевых</title>
+</head>
+<body>
+  <div id="container">
+    <h1>Калькулятор чаевых</h1>
+
+    <div id="calculator">
+      <form>
+        <label>
+          Счет за услуги
+          <input type="text" id="billAmount"><br>
+        </label>
+        <label>
+          Вам понравилось обслуживание?<br>
+          <select id="serviceQuality">
+            <option disabled selected value="0">-- Выбрать процент чаевых --</option>
+
+            <option value="0.2">20% - Супер</option>
+            <option value="0.1">10% - Хорошо</option>
+            <option value="0.0">0% - Удовлетворительно</option>
+          </select>
+        </label><br>
+        <label>
+            Сколько человек за столом?<br>
+            <input type="text" id="totalPeople"> количество человек
+        </label><br>
+        <button type="button" id="calculate"> Рассчитать!</button>
+
+      </form>
+
+    </div> <!--calculator-->
+
+    <div id="totalTip">
+      <span id="tip">0.00</span>
+      <small id="each">каждый</small>
+    </div><!--totalTip-->
+
+  </div> <!--container-->
+
+
+<script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
